@@ -2,21 +2,22 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    top: 30px;
+    height: 80px;
+    padding: 25px 0;
+    background-image: url(/images/perfo.png);
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
+    display: block;
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
@@ -25,16 +26,14 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+    line-height: 16px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: $grey-color-dark;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -169,6 +168,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    .wrapper {
+      background-image: url(/images/bg_content.jpg)
+    }
 }
 
 .page-heading {
