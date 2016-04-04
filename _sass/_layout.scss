@@ -5,7 +5,7 @@
     top: 30px;
     height: 80px;
     padding: 25px 0;
-    background-image: url(/images/perfo.png);
+    background-image: $perfo-url;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -170,7 +170,7 @@
     padding: $spacing-unit 0;
 
     .wrapper {
-      background-image: url(/images/bg_content.jpg)
+      background-image: $bg-content-url;
     }
 }
 

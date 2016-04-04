@@ -28,6 +28,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$perfo-url: url('{{ site.baseurl }}/images/perfo.png');
+$bg-body-url: url('{{ site.baseurl }}/images/bg_body.jpg');
+$bg-content-url: url('{{ site.baseurl }}/images/bg_content.jpg');
 
 
 // Use media queries like this:

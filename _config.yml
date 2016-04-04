@@ -11,7 +11,8 @@ email: contact@cappella.tv
 description: > # this means to ignore newlines until "baseurl:"
   Le premier système d'écriture de dialogue de doublage
   en téléchargement libre.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/cappella.tv" # the subpath of your site, e.g. /blog
+url: "http://phonations.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
